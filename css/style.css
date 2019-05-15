@@ -9,4 +9,12 @@ body>header {
 aside {
   display:none;
   }
+
+#mainspan {
+    display:flex;
+    flex-wrap:wrap;
+}
+#mainspan>section{
+    width:100%;
+}
   
