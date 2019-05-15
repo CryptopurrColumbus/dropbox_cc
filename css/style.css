@@ -1,4 +1,4 @@
-header {
+body>header {
     display: flex;
 }
 
@@ -6,3 +6,23 @@ header {
   display: flex;
 }
 
+#divaside {
+    display: flex;
+}
+
+aside {
+  align-content:flex-end;
+    width: 300px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(1440px, 0);
+    transform: translate(1440px, 0);
+    overflow: hidden;
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+  aside.open {
+    align-content:flex-end;
+    -webkit-transform: translate(1140px, 0);
+    transform: translate(0, 0);
+  }
