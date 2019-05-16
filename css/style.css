@@ -143,6 +143,7 @@ body {
 
 li.litems>a:link{
     text-decoration: none;
+    font-family: "AtlasGrotesk", "Atlas Grotesk Web", "Open Sans", sans-serif;
 }
 
 .pmain{
