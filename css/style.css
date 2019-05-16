@@ -6,14 +6,6 @@ body>header {
   display: flex;
 }
 
-aside {
-  display:none;
-  }
-
-#mainspan {
-    display:flex;
-    flex-wrap:wrap;
-}
 #mainspan>section{
     width:100%;
 }
@@ -21,4 +13,27 @@ aside {
 .mainlist{
     display:flex;
 }
-  
+
+#spanaside {
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: 0;
+  }
+
+#sec1 {
+    background-color: #61082b;
+}
+
+#sec2 {
+    background-color: #ffafa2;
+}
+
+#sec3 {
+    background-color: #005744;
+}
+
+footer {
+    background-color: #000000;
+}
