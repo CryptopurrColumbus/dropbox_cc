@@ -17,4 +17,8 @@ aside {
 #mainspan>section{
     width:100%;
 }
+
+.mainlist{
+    display:flex;
+}
   
