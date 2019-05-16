@@ -27,13 +27,62 @@ body>header {
 }
 
 #sec2 {
-    background-color: #ffafa2;
+    background-color: #61082b;
 }
 
 #sec3 {
+    background-color: #ffafa2;
+}
+
+#sec4 {
     background-color: #005744;
 }
 
 footer {
     background-color: #000000;
+}
+
+
+body {
+
+    -webkit-font-smoothing: antialiased;
+    
+}
+.pheading {
+    font-family: 'SharpGroteskWide', sans-serif;
+}
+#sec1>.pheading,#sec2>.pheading{
+    color: #b4d0e7;
+}
+#sec1>.pmain,#sec2>.pmain{
+    color: #ffffff;
+
+}
+.illustration {
+    color: #ffffff;
+}
+
+#sec3>.pheading{
+    color: #0d2481;
+}
+#sec3>.pmain{
+    color: #000000;
+}
+
+#sec4>.pheading{
+    color: #ffd830;
+}
+#sec4>.pmain{
+    color: #ffffff;
+}
+.lheading{
+    font-family: SharpGrotesk, Open Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.pmain{
+    font-family: 'Atlas Grotesk Web', 'Open Sans', sans-serif;
 }
